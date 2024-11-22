@@ -1,0 +1,26 @@
+{
+  "name": "react-signal-store",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {},
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@preact/signals-core": "^1.8.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "require": "./src/index.ts"
+    },
+    "./entities": {
+      "import": "./src/entities.ts",
+      "require": "./src/entities.ts"
+    },
+    "./loading": {
+      "import": "./src/loading.ts",
+      "require": "./src/loading.ts"
+    }
+  }
+}
